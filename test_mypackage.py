@@ -1,5 +1,5 @@
 import pytest
-from ex48 import WORD_TYPES, convert_number, scan
+from ex48.lexicon import WORD_TYPES, convert_number, scan
 
 def test_word_types():
     assert WORD_TYPES["north"] == "direction"
